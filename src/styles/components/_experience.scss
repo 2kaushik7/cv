@@ -1,0 +1,33 @@
+.experience {
+  height: $medium-large-height;
+}
+
+.experience-title {
+  color: $off-grey;
+  font-family: "Quicksand";
+  font-size: $xl-size;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.experience-description {
+  align-items: center;
+  display: flex;
+  font-family: "Quicksand";
+  height: $small-div-height;
+  justify-content: space-around;
+}
+
+.experience-org-title {
+  color: $off-grey;
+  text-align: center;
+}
+
+.experience-duration,
+.experience-summary {
+  color: $off-grey;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-weight: 800;
+}

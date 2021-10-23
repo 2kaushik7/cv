@@ -1,0 +1,36 @@
+.header-container {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container-title {
+  color: gray;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-size: $l-size;
+  font-weight: $font-weight;
+  margin-left: $xxl-size;
+  padding: $l-size;
+  text-decoration: none;
+}
+
+.header-container-navbar {
+  font-size: $m-size;
+  padding: $ml-size;
+  text-decoration: none;
+}
+
+.navbar {
+  list-style: none;
+}
+
+.navbar > li {
+  display: inline;
+}
+
+.navbar-element {
+  color: gray;
+  text-decoration: none;
+  font-size: $ml-size;
+  padding: $l-size;
+}

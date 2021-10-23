@@ -1,0 +1,22 @@
+.eq {
+  font-family: "Quicksand";
+  color: $off-grey;
+  height: $small-div-height;
+}
+
+.eq-title {
+  font-size: $xl-size;
+  text-align: center;
+}
+
+.eq-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.eq-graduation-details {
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+}

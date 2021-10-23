@@ -1,0 +1,31 @@
+.profile {
+  align-items: center;
+  background-color: $alt-div-color;
+  color: $off-grey;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand";
+  height: 700px;
+  justify-content: space-around;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 350px;
+  margin: 10px 0;
+}
+
+.profile-title {
+  font-size: $xl-size;
+  font-weight: 800;
+  margin: 0 $m-size 0 0;
+  letter-spacing: 2px;
+  padding: 0;
+}
+
+.profile-name {
+  font-size: $xl-size;
+  font-weight: 500;
+  margin: $m-size 0 0 0;
+  padding: 0;
+}

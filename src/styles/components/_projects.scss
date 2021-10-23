@@ -1,0 +1,26 @@
+.projects {
+  background-color: $alt-div-color;
+  color: $off-grey;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand";
+  height: $medium-large-height;
+  justify-content: space-around;
+}
+.projects-title {
+  font-size: $xl-size;
+  align-self: center;
+}
+
+.projects-descriptions {
+  display: flex;
+  justify-content: space-around;
+  height: $small-div-height;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.projects-description {
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+}

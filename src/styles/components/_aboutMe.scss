@@ -1,0 +1,28 @@
+.aboutMe {
+  align-items: center;
+  display: flex;
+  font-family: "Quicksand";
+  height: $large-height;
+  justify-content: space-around;
+  padding-top: $xl-size;
+}
+
+.aboutMe-description > h1 {
+  color: $off-grey;
+  font-size: $xl-size;
+  text-align: center;
+}
+
+.aboutMe-contactButton {
+  background: $off-grey;
+  border: none;
+  border-radius: $s-size;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-size: 25px;
+  font-weight: $font-weight;
+  padding: $m-size;
+  position: relative;
+  left: 30px;
+}

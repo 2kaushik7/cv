@@ -1,0 +1,22 @@
+.contact {
+  align-items: center;
+  background-color: $alt-div-color;
+  color: $off-grey;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand";
+  height: $small-div-height;
+  justify-content: space-around;
+}
+
+.contact-social-icons {
+  display: flex;
+}
+
+.contact-social-icons > a > img {
+  margin: $m-size;
+}
+
+.contact > p {
+  font-size: $l-size;
+}
